@@ -25,8 +25,5 @@
     "indecent": "^1.0.1",
     "lodash": "^3.9.3",
     "request": "^2.58.0"
-  },
-  "scripts": {
-    "start": "DEBUG=geofence:app NODE_ENV=localhost node server.js"
   }
 }

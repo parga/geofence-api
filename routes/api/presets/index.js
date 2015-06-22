@@ -1,11 +1,11 @@
-var handlers = require('./index_handlers.js');
+var handlers = require('./presets_handlers.js');
 
 exports.register = function(server, options, next) {
   server.bind(options);
   server.route([{
     method: 'GET',
-    path: '/',
-    handler: handlers.getIndex
+    path: '/api/presets/',
+    handler: handlers.getPresets
   }]);
 
   //Callback, completes the registration process
@@ -13,6 +13,7 @@ exports.register = function(server, options, next) {
 };
 
 exports.register.attributes = {
-  name: 'tasks-route',
+  name: 'api-presets-route',
   version: '1.0.0'
 };
+

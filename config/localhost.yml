@@ -1,0 +1,6 @@
+port: 3000
+token: 'aeQbxqQeLRLf7Mv3wwLnUtCqQ26k4c'
+presets:
+  parga:
+    target: 'ukxzWcHGhRRomkx1vETv66PcFuT1tv'
+    message: 'im so hapi.js !!!!!'
